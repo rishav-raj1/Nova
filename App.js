@@ -1,15 +1,13 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import ImageText from './src/Component/ImageText';
-import ParentProps from './src/Component/Props/ParentProps';
-import Profile from './src/Component/Profile';
-import StateForm from './src/Component/StateForm/StateForm';
-import NewTest from './src/Component/newTest';
+
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <StateForm />
+      <Text>
+        Rishav Kumar
+      </Text>
     </View>
   );
 };
