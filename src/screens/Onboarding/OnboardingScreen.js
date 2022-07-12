@@ -2,7 +2,7 @@ import {View, Text, Image, StyleSheet, SafeAreaView, TouchableOpacity} from 'rea
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import React from 'react'
 
-const OnboardinScreen = ({navigation}) => {
+const OnboardingScreen = ({navigation}) => {
   return (
     
           <SafeAreaView style={styles.container}>
@@ -17,7 +17,7 @@ const OnboardinScreen = ({navigation}) => {
   )
 }
 
-export default OnboardinScreen
+export default OnboardingScreen
 
 const styles = StyleSheet.create({
     container: {
