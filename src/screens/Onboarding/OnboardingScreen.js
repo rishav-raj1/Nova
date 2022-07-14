@@ -10,7 +10,7 @@ const OnboardingScreen = ({navigation}) => {
               Rishav Kumar
             </Text>
             <TouchableOpacity onPress={() => navigation.navigate('Login')} style={{margin: 10}}>
-                  <AntDesign size={30} name={'downcircle'} color="yellow" />
+                  <AntDesign size={30} name={'rightcircle'} color="yellow" />
                 </TouchableOpacity>
           </SafeAreaView>
        

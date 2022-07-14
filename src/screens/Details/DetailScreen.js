@@ -7,7 +7,7 @@ const DetailScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text style={{color:"black"}}>DetailScreen</Text>
-      <TouchableOpacity onPress={() => navigation.openDrawer()} style={{margin: 10}}>
+      <TouchableOpacity style={{margin: 10}}>
                   <AntDesign size={30} name={'downcircle'} color="yellow" />
                 </TouchableOpacity>
     </View>
