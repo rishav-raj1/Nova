@@ -42,9 +42,6 @@ const LoginScreen = ({navigation}) => {
           }}>
           Login
         </Text>
-        {/* <Text>
-          {user}
-        </Text> */}
 
         <InputField
           label={'Email ID'}
