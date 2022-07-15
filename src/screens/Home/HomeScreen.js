@@ -1,13 +1,18 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
-import React from 'react'
+import React, {useContext} from 'react'
 import AntDesign from 'react-native-vector-icons/AntDesign';
+import { AuthContext } from '../../context/AuthContext';
 
 
 const HomeScreen = ({navigation}) => {
+
+  const {logout} = useContext(AuthContext)
+
+
   return (
     <View style={styles.container}>
       <Text style={{color:"black"}}>HomeScreen</Text>
-      <TouchableOpacity style={{margin: 10}}>
+      <TouchableOpacity onPress={() => {logout()}} style={{margin: 10}}>
                   <AntDesign size={30} name={'downcircle'} color="yellow" />
                 </TouchableOpacity>
     </View>
