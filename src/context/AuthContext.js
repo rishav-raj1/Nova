@@ -26,7 +26,7 @@ export const AuthProvider = ({children}) => {
     try {
       setIsLoading(true);
       let userToken = await AsyncStorage.getItem('userToken');
-      setIsLoading(userToken);
+      setUserToken(userToken);
       setIsLoading(false);
     } catch(e) {
       console.log(`isLogged in error ${e}`);
@@ -35,7 +35,7 @@ export const AuthProvider = ({children}) => {
 
   useEffect(()=> {
       isLoggedIn();
-  }, [])
+  }, []);
 
 
 
